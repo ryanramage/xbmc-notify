@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var notify = require('..')
+
+var host = process.argv[2],
+		title = process.argv[3],
+		msg = process.argv[4];
+
+notify(host, title, msg, function(err, resp, body){
+	if(err) return console.log('err: ', err);
+	console.log(resp, body);
+})

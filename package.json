@@ -1,0 +1,27 @@
+{
+  "name": "xbmc-notify",
+  "version": "0.0.0",
+  "description": "Send a message to xbmc to pop up a message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xbmc"
+  ],
+  "author": "Ryan Ramage",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.36.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanramage/xbmc-notify.git"
+  },
+  "author": "Ryan Ramage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanramage/xbmc-notify/issues"
+  },
+  "homepage": "https://github.com/ryanramage/xbmc-notify"
+}
