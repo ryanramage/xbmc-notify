@@ -1,7 +1,7 @@
 {
-  "name": "xbmc-notify",
+  "name": "xbmc-open",
   "version": "1.0.0",
-  "description": "Send a message to xbmc to pop up a message",
+  "description": "Open a file or url in xbmc.",
   "main": "index.js",
   "bin" : {
     "xbmc-open" : "./bin/xbmc-open",
@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryanramage/xbmc-notify.git"
+    "url": "https://github.com/ryanramage/xbmc-open.git"
   },
   "bugs": {
-    "url": "https://github.com/ryanramage/xbmc-notify/issues"
+    "url": "https://github.com/ryanramage/xbmc-open/issues"
   },
-  "homepage": "https://github.com/ryanramage/xbmc-notify"
+  "homepage": "https://github.com/ryanramage/xbmc-open"
 }
