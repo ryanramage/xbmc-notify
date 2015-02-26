@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var play = require('..').play
+
+var conf = require('rc')('xbmc', {
+  host: "http://xbmc:xbmc@localhost:8080",
+  url: "http://localhost:8888"
+});
+
+play(conf.host, conf.url, function(err, resp, body){
+  if(err) return console.log('err: ', err);
+  console.log(resp, body);
+})
